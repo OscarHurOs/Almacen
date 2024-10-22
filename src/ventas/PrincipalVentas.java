@@ -24,8 +24,11 @@ public class PrincipalVentas {
             System.out.println("Producto creado: " + producto);
 
         }while(continuarAgregandoProducto(scanner));
-
         mostrarProductos(productos);
+        //crear una orden y agregar los productos
+        Orden orden = new Orden();
+        orden.mostrarOrden(productos);
+
         scanner.close();
         System.out.println("¡Gracias por usar el sistema de ventas!");
 
