@@ -19,7 +19,7 @@ public class Orden {
     }
 
     public void mostrarOrden(List<Producto> productos){
-        System.out.println("Id Orden" + this.idOrden);
+        System.out.println("******* Id Orden " + this.idOrden + " ******");
         var totalOrden = this.calcularTotal(productos);
         System.out.println("\t Total de la orden: $"+ totalOrden);
         mostrarProductos(productos);
