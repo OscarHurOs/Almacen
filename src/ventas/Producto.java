@@ -89,9 +89,9 @@ public class Producto {
     @Override
     public String toString() {
         return "Producto{" +
-                "idProducto=" + idProducto +
-                ", nombre='" + nombre + '\'' +
-                ", precio=" + precio +
+                "idProducto=" + this.idProducto +
+                ", nombre='" + this.nombre + '\'' +
+                ", precio=" + this.precio +
                 '}';
     }
 
